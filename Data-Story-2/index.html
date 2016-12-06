@@ -1,0 +1,370 @@
+<head> 
+	<title>MLB Wins and Salaries - SportsHub</title>
+</head>
+
+<body>
+<style>
+	@font-face {font-family: "Franklin Bold"; 
+				src:url(fonts/ITCFranklinGothicStd-Med.otf);
+			}
+	@font-face {font-family: "Franklin Light"; 
+				src:url(fonts/franklin-gothic-light.ttf);
+			}
+	body {
+		margin:40px;
+		color:#2a2a2a;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: 10%;
+		margin-right: 10%;
+		border-left: 1px solid #D5D5D5;
+		border-right: 1px solid #D5D5D5;	}
+
+	h1{
+		font-family:"Franklin Bold",Helvetica, Arial, sans-serif;
+		font-size: 2.8em;
+		font-weight: 800;
+	}
+
+	p{
+		font-family:"Franklin Light",Helvetica, Arial, sans-serif;
+		font-size:1.1em;
+		line-height:1.5em;
+		word-spacing: -1px;
+	}
+
+
+
+	.top{
+		
+	
+			}
+	
+	.middle {
+		text-align: left;
+		clear:both;
+		 }
+	
+	
+	/*Changes image width for...*/	
+	.scatter-plot img {
+		width: 95%;
+		min-width: 350px;}
+
+	
+
+
+
+	.total {
+		font-family: "Franklin-Bold", Helvetica, Arial, sans-serif;
+		font-size: 1.5em;}
+
+	.bottom-chart img {
+		width: 45%;
+		min-width: 350px;
+
+	
+	}
+
+}
+
+/*TABLET*/
+@media (max-width: 880px) {
+
+	body {
+		margin: 10px;
+	}
+
+
+
+
+
+
+	
+
+}
+
+/*MOBILE 480px*/
+@media (max-width: 480px) {
+
+	.right img {
+		width: 100%;
+		margin-right: 0;
+	}
+
+
+}
+
+
+
+
+}
+
+</style>
+
+<body>
+	<div class="top">
+		<h1>Winning in the MLB: Does $$$$$ matter?</h1>
+		<h2>A compilation of payrolls and win totals from the 2014, 2015 and 2016 MLB seasons.</h2>
+		<h3>By Owen McCue</h3>
+		<!--This is an HTML comment-->  
+		<p>It's all about the money, right? Year after year the Yankees, Red Sox and Dodgers toss money at top free agents and build the best team. But do they always have the <i>best</i> team? To find out, we tracked each team's total payroll and total wins from 2014-16.</p>
+		<p>Over the past three seasons, the Dodgers have spent the most money putting together their team -- <b>$731,436,661</b> to be exact. They've also topped the MLB with 277 wins. In comparison, the Houston Astros have spent <b>$184,518,474</b> and have won 240 games, which ranks No. 19 in the MLB over that span. </p>
+		
+	</div>
+		
+	<div class="scatter-plot">
+			<img src="img/MLB-ScatterPlot-01.svg"></img>
+	</div>
+
+
+
+	<div class="middle">
+			<p>If you take a look at the scatter plot above, you'll start to notice some trends. For the most part, teams that spend more have produce more wins. Among the top ten spending teams in the MLB, only the Phillies finished among the bottom 10 teams in wins. However, the Pirates had one of the bottom five payrolls <b>($252,275,999)</b> and finished in the top 10 in wins. Still as shown below when you compare the bottom five teams in salary and the top five salaried teams, you'll see a drastic difference in wins.</p>
+	</div>	
+	
+
+
+	<div class="bottom-chart">
+		<img src="img/data-story-2-01.svg"></img>
+			<img src="img/MLB-graphic-02.svg"></img>
+	</div>
+
+		<div class="middle">
+			<p>At the same time, the Dodgers were the only team with a top five payroll that finished in the top five of wins. The Giants were the only other team with a top five payroll that finished in the top 10 in wins. It's interesting to see how a team like the Cardinals spent half of what the Dodgers did and have just one less win over a three-year stretch. The Cubs similary were right on the median in spending and finished fourth in wins. It proves that factors like scouting and resource allocation are important to building a winning team. Developing young, cheap players or going out and buying big name free agents are both proven ways of success.</p>
+			<p>You can see all the data below.</p>
+		</div>
+
+	<div class="bottom">
+
+				<table cellspacing=0 border=1>
+					<tr>
+						<td style=min-width:50px>Payroll rank</td>
+						<td style=min-width:50px>Wins rank</td>
+						<td style=min-width:50px>Team</td>
+						<td style=min-width:50px>Total Payroll</td>
+						<td style=min-width:50px>Total Wins</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>1</td>
+						<td style=min-width:50px>1</td>
+						<td style=min-width:50px>Dodgers</td>
+						<td style=min-width:50px>$731,436,661</td>
+						<td style=min-width:50px>277</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>2</td>
+						<td style=min-width:50px>13</td>
+						<td style=min-width:50px>Yankees</td>
+						<td style=min-width:50px>$636,567,559</td>
+						<td style=min-width:50px>255</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>3</td>
+						<td style=min-width:50px>17</td>
+						<td style=min-width:50px>Red Sox</td>
+						<td style=min-width:50px>$532,386,027</td>
+						<td style=min-width:50px>242</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>4</td>
+						<td style=min-width:50px>14</td>
+						<td style=min-width:50px>Tigers</td>
+						<td style=min-width:50px>$508,324,527</td>
+						<td style=min-width:50px>250</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>5</td>
+						<td style=min-width:50px>10</td>
+						<td style=min-width:50px>Giants</td>
+						<td style=min-width:50px>$493,353,931</td>
+						<td style=min-width:50px>259</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>6</td>
+						<td style=min-width:50px>3</td>
+						<td style=min-width:50px>Nationals</td>
+						<td style=min-width:50px>$465,635,919</td>
+						<td style=min-width:50px>274</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>7</td>
+						<td style=min-width:50px>11</td>
+						<td style=min-width:50px>Angels</td>
+						<td style=min-width:50px>$453,074,666</td>
+						<td style=min-width:50px>257</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>8</td>
+						<td style=min-width:50px>30</td>
+						<td style=min-width:50px>Phillies</td>
+						<td style=min-width:50px>$448,928,223</td>
+						<td style=min-width:50px>207</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>9</td>
+						<td style=min-width:50px>15</td>
+						<td style=min-width:50px>Rangers</td>
+						<td style=min-width:50px>$422,484,418</td>
+						<td style=min-width:50px>250</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>10</td>
+						<td style=min-width:50px>7</td>
+						<td style=min-width:50px>Blue Jays</td>
+						<td style=min-width:50px>$368,031,000</td>
+						<td style=min-width:50px>265</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>11</td>
+						<td style=min-width:50px>2</td>
+						<td style=min-width:50px>Cardinals</td>
+						<td style=min-width:50px>$352,191,775</td>
+						<td style=min-width:50px>276</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>12</td>
+						<td style=min-width:50px>29</td>
+						<td style=min-width:50px>Reds</td>
+						<td style=min-width:50px>$346,320,128</td>
+						<td style=min-width:50px>208</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>13</td>
+						<td style=min-width:50px>16</td>
+						<td style=min-width:50px>Mariners</td>
+						<td style=min-width:50px>$334,586,845</td>
+						<td style=min-width:50px>249</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>14</td>
+						<td style=min-width:50px>5</td>
+						<td style=min-width:50px>Orioles</td>
+						<td style=min-width:50px>$333,140,352</td>
+						<td style=min-width:50px>266</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>15</td>
+						<td style=min-width:50px>4</td>
+						<td style=min-width:50px>Cubs</td>
+						<td style=min-width:50px>$324,669,264</td>
+						<td style=min-width:50px>273</td>
+					</tr>			
+					<tr>
+						<td style=min-width:50px>16</td>
+						<td style=min-width:50px>6</td>
+						<td style=min-width:50px>Royals</td>
+						<td style=min-width:50px>$318,567,520</td>
+						<td style=min-width:50px>265</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>17</td>
+						<td style=min-width:50px>24</td>
+						<td style=min-width:50px>Padres</td>
+						<td style=min-width:50px>$317,139,720</td>
+						<td style=min-width:50px>219</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>18</td>
+						<td style=min-width:50px>23</td>
+						<td style=min-width:50px>Brewers</td>
+						<td style=min-width:50px>$307,530,377</td>
+						<td style=min-width:50px>223</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>19</td>
+						<td style=min-width:50px>20</td>
+						<td style=min-width:50px>White Sox</td>
+						<td style=min-width:50px>$305,110,799</td>
+						<td style=min-width:50px>227</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>20</td>
+						<td style=min-width:50px>27</td>
+						<td style=min-width:50px>Twins</td>
+						<td style=min-width:50px>$302,983,500</td>
+						<td style=min-width:50px>212</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>21</td>
+						<td style=min-width:50px>28</td>
+						<td style=min-width:50px>Rockies</td>
+						<td style=min-width:50px>$296,099,372</td>
+						<td style=min-width:50px>209</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>22</td>
+						<td style=min-width:50px>25</td>
+						<td style=min-width:50px>Braves</td>
+						<td style=min-width:50px>$296,098,554</td>
+						<td style=min-width:50px>214</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>23</td>
+						<td style=min-width:50px>12</td>
+						<td style=min-width:50px>Mets</td>
+						<td style=min-width:50px>$290,087,455</td>
+						<td style=min-width:50px>256</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>24</td>
+						<td style=min-width:50px>26</td>
+						<td style=min-width:50px>Diamondbacks</td>
+						<td style=min-width:50px>$274,970,332</td>
+						<td style=min-width:50px>212</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>25</td>
+						<td style=min-width:50px>9</td>
+						<td style=min-width:50px>Indians</td>
+						<td style=min-width:50px>$254,965,042</td>
+						<td style=min-width:50px>260</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>26</td>
+						<td style=min-width:50px>8</td>
+						<td style=min-width:50px>Pirates</td>
+						<td style=min-width:50px>$252,275,999</td>
+						<td style=min-width:50px>264</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>27</td>
+						<td style=min-width:50px>21</td>
+						<td style=min-width:50px>Athletics</td>
+						<td style=min-width:50px>$249,767,233</td>
+						<td style=min-width:50px>225</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>28</td>
+						<td style=min-width:50px>22</td>
+						<td style=min-width:50px>Rays</td>
+						<td style=min-width:50px>$226,774,182</td>
+						<td style=min-width:50px>225</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>29</td>
+						<td style=min-width:50px>19</td>
+						<td style=min-width:50px>Marlins</td>
+						<td style=min-width:50px>$200,681,900</td>
+						<td style=min-width:50px>227</td>
+					</tr>
+					<tr>
+						<td style=min-width:50px>30</td>
+						<td style=min-width:50px>18</td>
+						<td style=min-width:50px>Astros</td>
+						<td style=min-width:50px>$184,518,474</td>
+						<td style=min-width:50px>240</td>
+					</tr>
+				</table>
+				</div>
+
+			
+				
+
+		
+			
+		
+
+		
+	
+</body>
